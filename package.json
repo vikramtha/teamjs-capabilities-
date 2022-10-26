@@ -1,0 +1,17 @@
+{
+    "name": "new_personal_tab",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@microsoft/teamsfx-cli": "1.*"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "bowser": "^1.9.4",
+        "react-device-detect": "^2.2.2"
+    }
+}

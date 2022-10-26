@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "e0b2b44e-bb1c-40e9-a84c-e295bafd326a",
+        "subscriptionId": "2cddd80a-6f8f-4946-95ab-fe269aaa2b81",
+        "subscriptionName": "Visual Studio Enterprise Subscription",
+        "tenantId": "039351dd-7cef-4114-a891-8ac5cb96b767",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "newpersonaltab-dev-rg",
+        "location": "West US",
+        "resourceNameSuffix": "4e5537"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "e0b2b44e-bb1c-40e9-a84c-e295bafd326a",
+        "teamsAppId": "c875cc7a-8b85-440b-b5de-cab86859645b"
+    },
+    "fx-resource-frontend-hosting": {
+        "indexPath": "/index.html#",
+        "domain": "newpersona1b1320tab.z22.web.core.windows.net",
+        "endpoint": "https://newpersona1b1320tab.z22.web.core.windows.net",
+        "storageResourceId": "/subscriptions/2cddd80a-6f8f-4946-95ab-fe269aaa2b81/resourceGroups/newpersonaltab-dev-rg/providers/Microsoft.Storage/storageAccounts/newpersona1b1320tab"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "dcfa8442-97e3-4c03-b8b7-ded84c85fdfe",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "ddf39f80-2004-47ad-942e-4afc5a8b1378",
+        "oauth2PermissionScopeId": "b1e492c4-db6f-4de9-bd6f-e2c2ebc1200d",
+        "tenantId": "e0b2b44e-bb1c-40e9-a84c-e295bafd326a",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/e0b2b44e-bb1c-40e9-a84c-e295bafd326a",
+        "applicationIdUris": "api://newpersona1b1320tab.z22.web.core.windows.net/dcfa8442-97e3-4c03-b8b7-ded84c85fdfe",
+        "frontendEndpoint": "https://newpersona1b1320tab.z22.web.core.windows.net"
+    },
+    "fx-resource-identity": {
+        "identityName": "newpersona1b1320",
+        "identityResourceId": "/subscriptions/2cddd80a-6f8f-4946-95ab-fe269aaa2b81/resourceGroups/newpersonaltab-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/newpersona1b1320",
+        "identityClientId": "89952b57-f620-459e-a860-023766a503c0"
+    }
+}
